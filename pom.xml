@@ -36,7 +36,7 @@
         </dependency>
         <!-- Smart Framework -->
         <dependency>
-            <groupId>org.smart4j</groupId>
+            <groupId>com.json.smart4j</groupId>
             <artifactId>smart-framework</artifactId>
             <version>1.0.0</version>
         </dependency>
