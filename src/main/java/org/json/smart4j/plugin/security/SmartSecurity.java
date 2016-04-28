@@ -3,6 +3,14 @@ package org.json.smart4j.plugin.security;
 import java.util.Set;
 
 /**
+ *Smart Security 接口
+ * <br/>
+ * 可在应用中实现该接口，或者在 smart.properties 文件中提供以下基于 SQL 的配置项：
+ * <ul>
+ *     <li>smart.security.jdbc.authc_query：根据用户名获取密码</li>
+ *     <li>smart.security.jdbc.roles_query：根据用户名获取角色名集合</li>
+ *     <li>smart.security.jdbc.permissions_query：根据角色名获取权限名集合</li>
+ * </ul>
  * Created by wh on 16/4/20.
  */
 public interface SmartSecurity {
